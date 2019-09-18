@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import liveOak from './live-oak-hef.png';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="wrapper">
+      <section id="main">
+        <header>
+          <h1>11th Floor Kegerator</h1>
+          <h3>The beer currently on tap is</h3>
+          <span className="avatar"><img src={liveOak} alt="" style={{ height: '175px' }}/></span>
+          <p><i>"Authentically brewed using a traditional yeast strain that naturally creates the signature flavors of vanilla, clove, and banana."</i></p>
+        </header>
+      </section>
     </div>
   );
 }
