@@ -6,8 +6,6 @@ const Wrapper = styled.div`
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #FAF5E3;
-  background-color: #FAF5E3;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
