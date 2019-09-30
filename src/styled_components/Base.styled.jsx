@@ -12,7 +12,18 @@ const BaseStyles = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
   }
 
-  p {
+  h1 {
+    font-size: 1.7rem;
+    color: #01AEAC;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+    color: #01AEAC;
+  }
+
+  h2 {
     font-size: 0.9rem;
   }
 `

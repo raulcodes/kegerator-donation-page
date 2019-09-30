@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const StyledCard = styled.section`
+const BlankCard = styled.span`
   -moz-transform-origin: 50% 50%;
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
@@ -14,30 +14,29 @@ const StyledCard = styled.section`
   -ms-transition: opacity 1s ease, -ms-transform 1s ease;
   transition: opacity 1s ease, transform 1s ease;
   padding: 1.5em 2em 2em 2em ;
-  background: #01AEAC;
+  margin-top: 40px;
+  border-color: #01AEAC;
+  border-style: dashed;
+  border-width: 5px;
   border-radius: 4px;
   cursor: default;
   max-width: 100%;
   opacity: 0.95;
   position: relative;
-  width: 27em;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-
-  display: flex;
-  -moz-justify-content: flex-start;
-  -webkit-justify-content: flex-start;
-  -ms-justify-content: flex-start;
-  justify-content: flex-start;
-  -moz-flex-direction: row;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-
-  align-items: center;
+  width: 26em;
+  height: 7em;
 
   @media screen and (max-width: 480px) {
     width: 80%;
+    height: 7em;
+  }
+
+  h3 {
+    text-align: center;
+    color: #01AEAC;
+    line-height: 6em;
+    margin: auto;
   }
 `
 
-export default StyledCard;
+export default BlankCard;

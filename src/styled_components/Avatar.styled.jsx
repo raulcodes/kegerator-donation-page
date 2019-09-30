@@ -3,7 +3,8 @@ import styled from 'styled-components';
 const Avatar = styled.span`
   position: relative;
   display: block;
-  margin-bottom: 1.5em;
+  float: left
+  // margin-bottom: 1.5em;
 
   img {
     display: block;
