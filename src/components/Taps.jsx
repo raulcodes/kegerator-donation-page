@@ -9,7 +9,7 @@ import BeerStats from '../styled_components/BeerStats.styled';
 import Stat from '../styled_components/Stat.styled';
 import BlankCard from '../styled_components/BlankCard.styled';
 
-const Card = () => (
+const Taps = () => (
   <>
     <StyledCard>
       <div>
@@ -29,4 +29,4 @@ const Card = () => (
   </>
 )
 
-export default Card;
+export default Taps;

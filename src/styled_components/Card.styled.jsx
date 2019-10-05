@@ -18,7 +18,6 @@ const StyledCard = styled.section`
   border-radius: 4px;
   cursor: default;
   max-width: 100%;
-  opacity: 0.95;
   position: relative;
   width: 27em;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
