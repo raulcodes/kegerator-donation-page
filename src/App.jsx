@@ -16,7 +16,7 @@ function App() {
       <h1>11th Floor Kegerator</h1>
       <hr/>
       <h3>Currently On Tap:</h3>
-      <div className="columns container" style={{ 'width': '70%' }}>
+      <div className="columns container">
         <div className="column">
           <Card
             header="Tap 1"

@@ -13,6 +13,10 @@ const Wrapper = styled.div`
   padding: 1.5em;
   z-index: 2;
 
+  .container {
+    width: 70%;
+  }
+
   .card {
     font-family: "coranto-2", serif;
 
@@ -60,6 +64,10 @@ const Wrapper = styled.div`
       padding: 0.75em;
     }
 
+    .container {
+      width: 85%;
+    }
+
   }
 
   @media screen and (max-width: 660px) {
@@ -69,6 +77,10 @@ const Wrapper = styled.div`
 
     h3 {
       font-size: 1rem;
+    }
+
+    .container {
+      width: 95%;
     }
   }
 `
