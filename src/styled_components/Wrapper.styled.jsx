@@ -1,30 +1,46 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flex;
+  font-family: "modesto-expanded", serif;
+  color: rgb(49, 91, 138);
   display: flex;
-  -moz-align-items: center;
-  -webkit-align-items: center;
-  -ms-align-items: center;
   align-items: center;
-  -moz-justify-content: space-between;
-  -webkit-justify-content: space-between;
-  -ms-justify-content: space-between;
   justify-content: space-between;
-  -moz-flex-direction: column;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -moz-perspective: 1000px;
-  -webkit-perspective: 1000px;
-  -ms-perspective: 1000px;
   perspective: 1000px;
   position: relative;
   min-height: 100%;
   padding: 1.5em;
   z-index: 2;
+
+  .card {
+    font-family: "coranto-2", serif;
+
+    .title {
+      font-size: 1.5rem;
+    }
+
+    .card-footer {
+      margin-top: 15px;
+      padding-top: 15px; 
+    }
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  h3 {
+    margin-bottom: 30px;
+    font-family: "coranto-2", serif;
+    font-size: 2rem;
+  }
+
+  hr {
+    width: 85%;
+    height: 2px;
+    background-color: black;
+  }
 
   & > * {
     z-index: 1;
@@ -35,12 +51,25 @@ const Wrapper = styled.div`
     display: block;
   }
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 1060px) {
+    h1 {
+      font-size: 3rem;
+    }
 
     #wrapper {
       padding: 0.75em;
     }
 
+  }
+
+  @media screen and (max-width: 660px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    h3 {
+      font-size: 1rem;
+    }
   }
 `
 
