@@ -3,7 +3,9 @@ html {
 }
 
 .wrapper {
-  font-family: "modesto-expanded", serif;
+  font-family: masqualero, serif;
+  font-weight: 600;
+  font-style: normal;
   color: #ece7e0;
   display: flex;
   align-items: center;
@@ -12,12 +14,10 @@ html {
   perspective: 1000px;
   position: relative;
   min-height: 100%;
+  width: 70%;
+  margin: 0 auto;
   padding: 1.5em;
   z-index: 2;
-
-  .container {
-    width: 70%;
-  }
 
   h1 {
     font-size: 5rem;
@@ -53,14 +53,9 @@ html {
       font-size: 3rem;
     }
 
-    #wrapper {
-      padding: 0.75em;
+    .wrapper {
+      width: 80%;
     }
-
-    .container {
-      width: 85%;
-    }
-
   }
 
   @media screen and (max-width: 660px) {
@@ -72,8 +67,8 @@ html {
       font-size: 1rem;
     }
 
-    .container {
-      width: 95%;
+    .wrapper {
+      width: 90%;
     }
   }
 }

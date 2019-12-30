@@ -13,18 +13,18 @@ const App = () => (
   <div className={styles.wrapper}>
     <h1>11th Floor Kegerator</h1>
     <hr/>
-    <div className="columns">
+    <div className="columns is-multiline">
       <div className="column">
-        <img src={flavorCountry}/>
+        <img src={flavorCountry} style={{ 'maxWidth': '300px' }} />
       </div>
       <div className="column">
-        <img src={zoe}/>
+        <img src={zoe} style={{ 'maxWidth': '300px' }} />
       </div>
       <div className="column">
-        <img src={elecFish}/>
+        <img src={elecFish} style={{ 'maxWidth': '300px' }} />
       </div>
       <div className="column">
-        <img src={liveOakHef} />
+        <img src={liveOakHef} style={{ 'maxWidth': '300px' }} />
       </div>
     </div>
   </div>
