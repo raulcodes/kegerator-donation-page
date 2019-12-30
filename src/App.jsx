@@ -15,16 +15,16 @@ const App = () => (
     <hr/>
     <div className="columns is-multiline">
       <div className="column">
-        <img src={flavorCountry} style={{ 'maxWidth': '300px' }} />
+        <img src={flavorCountry} alt="Flavor Country" style={{ 'maxWidth': '300px' }} />
       </div>
       <div className="column">
-        <img src={zoe} style={{ 'maxWidth': '300px' }} />
+        <img src={zoe} alt="Zoe" style={{ 'maxWidth': '300px' }} />
       </div>
       <div className="column">
-        <img src={elecFish} style={{ 'maxWidth': '300px' }} />
+        <img src={elecFish} alt="Electric Jellyfish" style={{ 'maxWidth': '300px' }} />
       </div>
       <div className="column">
-        <img src={liveOakHef} style={{ 'maxWidth': '300px' }} />
+        <img src={liveOakHef} alt="Live Oak Hef" style={{ 'maxWidth': '300px' }} />
       </div>
     </div>
   </div>
