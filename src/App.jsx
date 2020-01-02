@@ -9,10 +9,10 @@ const App = () => (
   <div className={styles.wrapper}>
     <h1>11th Floor Kegerator</h1>
     <hr/>
-    <div className="columns is-multiline">
+    <div className="columns is-multiline is-centered">
       {
         beerData.map(beer => (
-          <div className="column">
+          <div className="column is-one-third">
             <img src={beer.imagePath} alt={beer.name} style={{ 'maxWidth': '300px' }} />
           </div>
         ))
